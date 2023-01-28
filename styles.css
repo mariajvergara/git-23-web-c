@@ -11,11 +11,15 @@ body {
 }
 
 .nav-elements {
-    font-size: 10px;
+    font-size: 11px;
     font-family: monospace;
     font-weight: 500;
     padding: 0 30px;
-} 
+}
+
+.nav-elements:hover {
+    color: rgb(188, 144, 1);
+}
 
 .header {
     height: 300px;
@@ -37,6 +41,7 @@ body {
 
 .header-desc {
     color: white;
+    font
 }
 
 .button {
@@ -69,4 +74,20 @@ body {
 .btn-dark:hover {
     background-color: red;
     border: 2px solid red;
+}
+
+.content {
+    border: 2px solid coral;
+}
+
+.content-hero {
+    border: 2px solid seagreen;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+}
+
+.hero-img {
+    width: 100vw;
+    height: fit-content;
 }
