@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+}
+
+.nav {
+    /* border: 2px solid coral; */
+    height: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-elements {
+    font-size: 10px;
+    font-family: monospace;
+    font-weight: 500;
+    padding: 0 30px;
+} 
